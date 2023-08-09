@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "montserrat" "lexend peta" "bellefair";
+    src: url("https://fonts.googleapis.com/css2?family=Bellefair&family=Lexend+Peta:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400&display=swap") format(woff);
+}
+
+/* General Settings */
+body {
+    width: 1350px;
+    height: 1200px;
+    font-family: "montserrat";
+}
+
+/* Vertical Lines */
+.typography {
+border-left: 1px solid #595959;
+}
+
+.buttons {
+    border-left: 1px solid #595959;
+}
+
+/* Titles */
+th {
+    font-family: "lexend peta";
+    text-shadow: 3px 3px 4px #59595999;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+/* Tables Side by Side */
+* {
+    box-sizing: border-box;
+}
+  
+.row {
+    margin-left:-5px;
+    margin-right:-5px;
+}
+    
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+  
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+
+/* Color Palette */
+.palette {
+    margin-top: 17px;
+}
+
+.colorcol {
+    width: 150px;
+    height: 60px;
+    border: 0.5px solid #59595933;
+    box-shadow: 4px 4px 6px #59595999;
+}
+
+td {
+    width: 200px;
+    text-align: center;
+}
+
+/* Colors */
+.bluelogo {
+    background-color: #324b9b;
+}
+
+.bluegreece {
+    background-color: #284177;   
+}
+
+.lightblue {
+    background-color: #006bbd;   
+}
+
+.turquoise {
+    background-color: #83ceec;   
+}
+
+.lightdove {
+    background-color: #ede8e4;   
+}
+
+.darkdove {
+    background-color: #c2afa8;   
+}
+
+.ivory {
+    background-color: #fffff0;
+}    
+
+.empty {
+    height: 28px;
+}
+
+.hex {
+    width: 200px;
+    text-align: center;
+    font-family: bellefair;
+    color: #595959;
+}
+
+/* Typography */
+.parone {
+    width: 400px;
+    font-family: "montserrat";
+    font-size: 16px;
+    text-align: left;
+}
+
+.partwo {
+    width: 400px;
+    font-family: "bellefair";
+    font-size: 16px;
+    font-variant: small-caps;
+    text-align: justify;
+}
+
+h1 {
+    color: #324b9b;
+}
+
+h2 {
+    color: #284177;
+}
+
+h3, h4, h5, p {
+    color: #3a3a3a;
+}
+
+.mont {
+    font-family: "montserrat";
+}
+
+.bell, h2, h3 {
+    font-family: "bellefair";
+    font-weight: 400;
+}
+
+/* Links */
+.social {
+    color: #a3a3a3;
+}
+
+.linkone {
+    height: 60px;
+    color: #006bbd;
+}
+
+.linktwo {
+    height: 60px;
+    color: #83ceec;
+}
+
+/* Buttons */
+button {
+    width: 160px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 3px 4px #59595999;
+    background-color: #006bbd;
+    color: #fffff0;
+    font-family: "montserrat";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hover {
+    background-color: #83ceec;
+}
+
+.active {
+    background-color: #83ceec;
+    box-shadow: inset 0px 0px 3px 2px #59595966;
+}
+
+.butmode {
+    font-family: "lexend peta";
+    height: 60px;
+}
+
+/* Footer */
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "lexend peta";
+    color: #3a3a3a;
+}
